@@ -1,0 +1,31 @@
+{
+    "jobsList": [
+    {
+       "companyName": "ABC",
+       "companyTitle": "Java ENG",
+       "datePosted":"26/08/2018",
+       "status":"open"
+    },
+    {
+        "companyName": "ABCD",
+        "companyTitle": "Python ENG",
+        "datePosted":"29/08/2018",
+        "status":"open"
+ 
+    },
+    {
+        "companyName": "PK",
+        "companyTitle": "UI ENG",
+        "datePosted":"26/10/2018",
+        "status":"closed"
+ 
+    },
+    {
+        "companyName": "RKO",
+        "companyTitle": "Backend ENG",
+        "datePosted":"26/12/2018",
+        "status":"open"
+ 
+    }]
+ }
+ 

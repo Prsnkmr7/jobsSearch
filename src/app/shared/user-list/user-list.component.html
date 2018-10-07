@@ -1,0 +1,17 @@
+<div class="grid">
+  <table class="table-wrapper ">
+    <thead>
+      <tr class="grid-x account-table__head-row account-table__data-row">
+        <th class="notes-details" *ngFor="let head of headerName">{{head.name}}</th>
+      </tr>
+    </thead>
+    <tbody class="account-table__body">
+      <tr class="account-table__data-row grid-x list-table" *ngFor="let listData of list" (click)="selectOnChange(listData)">
+        <td class="account-table__date notes-details">{{listData.companyName || listData.name || listData.interview}}</td>
+        <td class="account-table__date notes-details">{{listData.companyTitle || listData.worksAt || listData.interviewer}}</td>
+        <td class="account-table__date notes-details">{{listData.datePosted || listData.experience || listData.date}}</td>
+        <td class="account-table__date notes-details">{{listData.status || listData.CTC || listData.result}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

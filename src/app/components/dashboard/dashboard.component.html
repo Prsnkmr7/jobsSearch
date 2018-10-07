@@ -1,0 +1,31 @@
+<div>
+    <app-header></app-header>
+    <section class="search-wrapper grid clearfix">
+        <form (ngSubmit)="search(model, searchForm.form.valid)" #searchForm="ngForm" class='login-content__form'>
+          <div class="left">
+            <div class="form-content left">
+              <input type="text" id="searchId" class="inputbox" name="searchId" matInput placeholder="Type to Search"
+                [(ngModel)]="model.searchId" #userId="ngModel" required>
+            </div>
+            <div [hidden]="hidden" class="alert-danger">
+          Search ID is required
+        </div>
+          </div>
+          <div class="form-button">
+            <input type="submit" class="submit-button" value="Search">
+          </div>
+        </form>
+      </section>
+  <div  *ngIf="jobsList">
+    <div class="highlighted">Posted Jobs</div>
+  <app-user-list [headerName]='jobsHeader' [list]="jobsList.jobsList" (selectChange)="goTolist($event)"></app-user-list>
+</div>
+<div  *ngIf="shortList">
+    <div class="highlighted">Short Listed</div>
+    <app-user-list [headerName]='shortListedHeader' [list]="shortList.shortList" (selectChange)="goToInterview($event)"></app-user-list>
+  </div>
+  <div  *ngIf="interviewList">
+      <div class="highlighted">Interview Listed</div>
+      <app-user-list [headerName]='interviewListedHeader' [list]="interviewList.interviewList" (selectChange)="goToEnd($event)"></app-user-list>
+    </div>
+</div>

@@ -1,0 +1,43 @@
+.search-wrapper {
+    margin-top: 20px;
+  }
+  
+  .inputbox {
+    width: 400px;
+    max-width: 400px;
+    height: 35px;
+    opacity: 1;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: relative;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: Roboto-Regular;
+    border-color: transparent;
+    outline: none;
+  }
+  .alert-danger{
+      color:red;
+      font-family: Roboto-Regular;
+  }
+  
+  .form-button .submit-button {
+    font-size: 16px;
+    color: #ffffff;
+    font-family: Roboto-Bold;
+    margin-left: 20px;
+    padding: 12px 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: #25a9dd;
+  }
+
+  .highlighted{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+  color: #fff;
+  font-family: Roboto-regular;
+  }

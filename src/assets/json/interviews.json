@@ -1,0 +1,15 @@
+{
+    "interviewList": [{
+        "interview": "RAJU",
+        "interviewer": "PLM",
+        "date": "25/12/2018",
+        "result": "Selected"
+      },
+      {
+        "interview": "RAJU Swamy",
+        "interviewer": "PLMT",
+        "date": "25/10/2018",
+        "result": "Offered"
+      }
+    ]
+  }

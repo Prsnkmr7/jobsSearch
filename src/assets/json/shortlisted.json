@@ -1,0 +1,28 @@
+{
+  "shortList": [{
+      "name": "RAJU",
+      "worksAt": "PLM",
+      "experience": "5 Years",
+      "CTC": "10L"
+    },
+    {
+      "name": "RAVI",
+      "worksAt": "PLMN",
+      "experience": "9 Years",
+      "CTC": "12L"
+    },
+    {
+      "name": "SACHIN",
+      "worksAt": "SVN",
+      "experience": "7 Years",
+      "CTC": "8L"
+    },
+    {
+      "name": "DANISH",
+      "worksAt": "STC",
+      "experience": "12 Years",
+      "CTC": "14L"
+
+    }
+  ]
+}
